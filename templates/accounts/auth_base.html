@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+<div class="auth-page">
+  <header class="public-header">
+    <span class="public-wordmark" aria-label="CSL System">CSL <b>System</b></span>
+  </header>
+  <main id="main-content" class="auth-main">
+    <section class="brand-panel" aria-labelledby="brand-title">
+      <div class="brand-kicker">CSL SYSTEM</div>
+      <h1 id="brand-title"><span class="brand-title-line">語言實習暨輔導系統</span></h1>
+      <p>Language Practicum and Tutoring Administration</p>
+      <span class="brand-rule" aria-hidden="true"></span>
+      <h2>華語實習暨輔導系統</h2>
+      <p>Mandarin Practicum and Tutoring System</p>
+    </section>
+    <section class="auth-card {% block auth_card_class %}{% endblock %}">
+      {% include "components/messages.html" %}
+      {% block auth_content %}{% endblock %}
+    </section>
+  </main>
+  <footer class="public-footer">
+    <span>© 2026 CSL System contributors</span>
+    <span>Open-source edition</span>
+  </footer>
+</div>
+{% endblock %}

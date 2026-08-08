@@ -1,0 +1,20 @@
+CSL System
+Copyright 2026 CSL System contributors
+
+This open-source distribution intentionally excludes production data, participant
+records, uploaded documents, private institutional materials, official logos,
+seals, certificate artwork, and other assets whose redistribution rights have not
+been established.
+
+The Apache License 2.0 applies only to material included in this repository that
+the applicable copyright holder is entitled to license. It does not grant rights
+to names, logos, seals, trademarks, service marks, institutional identities, or
+materials identified as third-party content.
+
+National Taiwan Normal University, NTNU, and the names of partner institutions
+may appear solely to describe the system's original context or configurable
+workflows. No endorsement, sponsorship, affiliation, or trademark license is
+implied. All third-party names and marks belong to their respective owners.
+
+Deployers must provide their own properly licensed branding, fonts, certificate
+templates, privacy notices, and institution-specific operational documentation.

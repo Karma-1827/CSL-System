@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+
+# Test, lint, and coverage output
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Django runtime data
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+tmp/
+output/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Database dumps, logs, and archives
+*.sql
+*.dump
+*.log
+*.zip
+*.tar
+*.tar.gz
+
+# Private institutional and user material
+學校文件/
+private/
+uploads/
+
+# Editors and operating systems
+.DS_Store
+Icon?
+.idea/
+.vscode/
+*.swp
+
+# Local agent configuration
+.claude/
+.codex/
+
+# Optional JavaScript tooling
+node_modules/
